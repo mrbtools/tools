@@ -1,0 +1,1 @@
+Start-Process powershell.exe -ArgumentList "-NoExit", "-Command whoami"
