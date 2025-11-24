@@ -1,4 +1,2 @@
-$desktop = [Environment]::GetFolderPath("Desktop")
-$path = Join-Path $desktop "resultado.txt"
-
+$path = "C:\Users\Public\resultado.txt"
 "Hola, este es un archivo creado desde PowerShell" | Out-File -FilePath $path -Encoding utf8
